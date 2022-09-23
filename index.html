@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <title>IMC-CALC</title>
+</head>
+<body>
+    <div class="container">
+        <div class="contain row">
+            <h1 class="col-xl-12">CALCULADORA DE IMC</h1>
+            <div class="informacion col-xl-6">
+                <label for="">Peso <br> <input type="number" name="" id="peso"></label><br>
+                <label for="">Altura <br> <input type="number" name="" id="altura"></label>
+                <button class="btn btn-primary w-50" id="calcular">CALCULAR</button>
+                <button class="btn btn-primary w-50" id="reiniciar">REINICIAR</button>
+            </div>
+            <div class="resultado col-xl-6">
+                <p>Su IMC (Indice de Masa Corporal) es: </p>
+                <div id="resultado_imc" class="resultado_imc"></div>
+                <img src="./img/imagen_ref.webp" class="imagen" alt="">
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

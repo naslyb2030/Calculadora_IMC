@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.informacion{
+    display: grid;
+    row-gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.contain{
+    text-align: center;
+    border: solid 1px;
+    width: 700px;
+}
+.resultado_imc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    width: 80px;
+    height: 50px;
+}
+.resultado{
+    display: grid;
+    justify-content: center;
+}
+.imagen{
+    height: 250px;
+    width: 300px;
+}
